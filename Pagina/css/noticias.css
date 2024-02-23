@@ -1,0 +1,325 @@
+@font-face {
+    font-family:"Formula" ;
+    src:url('../fuentes/Formula1-Regular.otf');
+}
+
+@font-face {
+    font-family:"Formula-b" ;
+    src:url('../fuentes/Formula1-Bold.otf');
+}
+
+@font-face {
+    font-family:"Formula-w" ;
+    src:url('../fuentes/Formula1-Wide.otf');
+}
+
+
+/* Estilo para pantallas con relación de aspecto 16:10 */
+@media screen and (min-width: 800px) {
+  /* Aquí puedes agregar estilos específicos para la relación de aspecto 16:10 */
+
+    body{
+        font-family: "Formula";
+        font-size: 1.5vh;
+        margin: 0%;
+    }
+
+    header{
+        height: 50px;
+        width: 98%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2%;
+    }
+    
+    header img{
+        height: 80%;
+    }
+
+    header a{
+        position: absolute;
+        right: 10px;
+        height: 4%;
+        margin-top: 0.5%;
+    }
+    
+    nav{
+        position: sticky;
+        top: 0; 
+        height: 8vh;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        font-family: "Formula-b";
+        text-shadow: 2px 2px black;        
+        padding: 10px;
+    }
+    
+
+    nav a:hover{
+        transform: scale(1.2);
+    }
+    
+    .titulo{
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: "Formula-w";
+        font-size: 18px;
+    }
+
+    .todas_noticias{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .noticias{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+    }
+
+
+    .n{
+        width: 30%;
+        height: 100%;
+        margin: 3%;
+        border-radius: 12px;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 6px solid red;
+        border-right: 6px solid red;
+    }
+
+    #img_info{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    summary{
+        width: 100%;
+        height: 8vh;
+        cursor: url('../img/cursor.png'), auto;
+    }
+
+    details > summary {
+        list-style: none;
+    }
+
+    details > summary::-webkit-details-marker {
+        display: none;
+    }  
+
+
+    h5{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        font-family: "Formula-b";
+        font-size: 1.5vh;
+    }
+
+    p{
+        width: 92%;
+        margin: 4%;
+        text-align: justify;
+        font-size: 1.5vh;
+    }
+
+
+    footer {
+        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+        bottom: 0; /* Lo coloca al final de la ventana */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50px;
+        background-color: #000000; /* Cambia el color de fondo a tu preferencia */
+        color: white; /* Cambia el color del texto a tu preferencia */
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+        text-align: center; /* Centra el contenido */
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+
+/* Estilo para dispositivos móviles */
+@media screen and (max-width: 799px) {
+  /* Aquí puedes agregar estilos específicos para dispositivos móviles */
+
+    body{
+        font-family: "Formula";
+        font-size: 1.2vh;
+        margin: 0%;
+    }
+
+
+    header{
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img{
+        height: 80%;
+    }
+
+    header a{
+        position: absolute;
+        right: 10px;
+        height: 4%;
+        margin-top: 0.5%;
+    }
+    
+    nav{
+        position: sticky;
+        top: 0; 
+        height: 8vh;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        font-family: "Formula-b";
+        text-shadow: 2px 2px black;        
+        padding: 10px;
+    }
+
+    nav a:hover{
+        transform: scale(1.2);
+    }
+    
+    .titulo{
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: "Formula-w";
+        font-size: 1.5vh;
+    }
+
+    .todas_noticias{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .noticias{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+
+    .n{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        border-radius: 12px;
+        justify-content: center;
+        text-align: center;
+        border-bottom: 6px solid red;
+        border-right: 6px solid red;
+        font-size: 1,2vh;
+    }
+
+
+    h5{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        justify-content: center;
+        font-family: "Formula-b";
+        font-size: 2vh;
+    }
+
+    summary{
+        width: 100%;
+        height: 8vh;
+    }
+    
+    details > summary {
+        list-style: none;
+    }
+
+    details > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    p{
+        width: 90%;
+        margin: 5%;
+        text-align: justify;
+    }
+
+    #img_info{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    #texto.hidden {
+        display: none; /* Oculta el texto por defecto */
+    }
+      
+
+    footer {
+        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+        bottom: 0; /* Lo coloca al final de la ventana */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50px;
+        background-color: #000000; /* Cambia el color de fondo a tu preferencia */
+        color: white; /* Cambia el color del texto a tu preferencia */
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+        text-align: center; /* Centra el contenido */
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+

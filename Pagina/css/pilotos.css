@@ -1,0 +1,460 @@
+@font-face {
+    font-family:"Formula" ;
+    src:url('../fuentes/Formula1-Regular.otf');
+}
+
+@font-face {
+    font-family:"Formula-b" ;
+    src:url('../fuentes/Formula1-Bold.otf');
+}
+
+@font-face {
+    font-family:"Formula-w" ;
+    src:url('../fuentes/Formula1-Wide.otf');
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        font-family: "Formula";
+        font-size: 1.5vh;
+        margin: 0%;
+    }
+    
+    
+    header{
+        height: 50px;
+        width: 98%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2%;
+    }
+      
+    header img{
+        height: 80%;
+    }
+    
+    header a{
+        position: absolute;
+        right: 10px;
+        height: 4%;
+        margin-top: 0.5%;
+    }
+      
+    nav{
+        position: sticky;
+        top: 0; 
+        height: 8vh;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        font-family: "Formula-b";
+        text-shadow: 2px 2px black;        
+        padding: 10px;
+    }
+    
+    
+    nav a:hover{
+        transform: scale(1.2);
+    }
+      
+    .titulo{
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: "Formula-w";
+        font-size: 18px;
+    }
+
+    .pilotos{
+        width: 100%;
+    }
+
+    .filas{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .escuderias{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .p-red{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #3874c4;
+        border-left: 4px solid #3874c4;
+        border-right: 4px solid #3874c4;
+
+    }
+
+    .p-mer{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #6cd4bc;
+        border-left: 4px solid #6cd4bc;
+        border-right: 4px solid #6cd4bc;
+    }
+
+    .p-fer{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #ff1434;
+        border-left: 4px solid #ff1434;
+        border-right: 4px solid #ff1434;
+    }
+
+    .p-ast{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #388c74;
+        border-left: 4px solid #388c74;
+        border-right: 4px solid #388c74;
+    }
+
+    .p-mcl{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #f88424;
+        border-left: 4px solid #f88424;
+        border-right: 4px solid #f88424;
+    }
+
+    .p-alp{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #2894d4;
+        border-left: 4px solid #2894d4;
+        border-right: 4px solid #2894d4;
+    }
+
+    .p-rb{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #608cac;
+        border-left: 4px solid #608cac;
+        border-right: 4px solid #608cac;
+    }
+
+    .p-sau{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #08e404;
+        border-left: 4px solid #08e404;
+        border-right: 4px solid #08e404;
+    }
+
+    .p-has{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #b8bcbc;
+        border-left: 4px solid #b8bcbc;
+        border-right: 4px solid #b8bcbc;
+    }
+
+    .p-wil{
+        width: 46%;
+        margin: 2%;
+        border-radius: 20px;
+        border-top: 4px solid #38bcdc;
+        border-left: 4px solid #38bcdc;
+        border-right: 4px solid #38bcdc;
+    }
+
+    .col{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tex{
+        width: 40%;
+        text-align: center;
+        border-right: 2px solid black;
+    }
+
+    .escuderias img{
+        width: 60%;
+        height: 60%;
+        border-bottom: 2px solid black;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+    footer {
+        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+        bottom: 0; /* Lo coloca al final de la ventana */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50px;
+        background-color: #000000; /* Cambia el color de fondo a tu preferencia */
+        color: white; /* Cambia el color del texto a tu preferencia */
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+        text-align: center; /* Centra el contenido */
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 799px) {
+
+    body{
+        font-family: "Formula";
+        font-size: 1.2  vh;
+        margin: 0%;
+    }
+
+
+    header{
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img{
+        height: 80%;
+    }
+
+    header a{
+        position: absolute;
+        right: 10px;
+        height: 4%;
+        margin-top: 0.5%;
+    }
+    
+    nav{
+        position: sticky;
+        top: 0; 
+        height: 8vh;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        font-family: "Formula-b";
+        text-shadow: 2px 2px black;        
+        padding: 10px;
+    }
+    
+    nav a:hover{
+        transform: scale(1.2);
+    }
+    
+    .titulo{
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: "Formula-w";
+        font-size: 1.5vh;
+    }
+
+    .pilotos{
+        width: 100%;
+    }
+
+    .filas{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .escuderias{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .p-red{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #3874c4;
+        border-left: 4px solid #3874c4;
+        border-right: 4px solid #3874c4;
+
+    }
+
+    .p-mer{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #6cd4bc;
+        border-left: 4px solid #6cd4bc;
+        border-right: 4px solid #6cd4bc;
+    }
+
+    .p-fer{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #ff1434;
+        border-left: 4px solid #ff1434;
+        border-right: 4px solid #ff1434;
+    }
+
+    .p-ast{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #388c74;
+        border-left: 4px solid #388c74;
+        border-right: 4px solid #388c74;
+    }
+
+    .p-mcl{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #f88424;
+        border-left: 4px solid #f88424;
+        border-right: 4px solid #f88424;
+    }
+
+    .p-alp{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #2894d4;
+        border-left: 4px solid #2894d4;
+        border-right: 4px solid #2894d4;
+    }
+
+    .p-rb{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #608cac;
+        border-left: 4px solid #608cac;
+        border-right: 4px solid #608cac;
+    }
+
+    .p-sau{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #08e404;
+        border-left: 4px solid #08e404;
+        border-right: 4px solid #08e404;
+    }
+
+    .p-has{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #b8bcbc;
+        border-left: 4px solid #b8bcbc;
+        border-right: 4px solid #b8bcbc;
+    }
+
+    .p-wil{
+        width: 95%;
+        margin: 2.5%;
+        border-radius: 20px;
+        border-top: 4px solid #38bcdc;
+        border-left: 4px solid #38bcdc;
+        border-right: 4px solid #38bcdc;
+    }
+
+    .tex{
+        width: 100%;
+        text-align: center;
+    }
+
+    .escuderias img{
+        width: 60%;
+        margin-left: 20%;
+        height: 60%;
+        border-bottom: 2px solid black;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+
+    footer {
+        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+        bottom: 0; /* Lo coloca al final de la ventana */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50px;
+        background-color: #000000; /* Cambia el color de fondo a tu preferencia */
+        color: white; /* Cambia el color del texto a tu preferencia */
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+        text-align: center; /* Centra el contenido */
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+}

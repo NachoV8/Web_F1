@@ -1,0 +1,407 @@
+@font-face {
+    font-family:"Formula" ;
+    src:url('../fuentes/Formula1-Regular.otf');
+}
+
+@font-face {
+    font-family:"Formula-b" ;
+    src:url('../fuentes/Formula1-Bold.otf');
+}
+
+@font-face {
+    font-family:"Formula-w" ;
+    src:url('../fuentes/Formula1-Wide.otf');
+}
+
+
+@media screen and (min-width: 800px) {
+    body{
+        font-family: "Formula";
+        font-size: 1.5vh;
+        margin: 0%;
+    }
+    
+    
+    header{
+        height: 50px;
+        width: 98%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2%;
+    }
+      
+    header img{
+        height: 80%;
+    }
+    
+    header a{
+        position: absolute;
+        right: 10px;
+        height: 4%;
+        margin-top: 0.5%;
+    }
+      
+    nav{
+        position: sticky;
+        top: 0; 
+        height: 8vh;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        font-family: "Formula-b";
+        text-shadow: 2px 2px black;        
+        padding: 10px;
+    }
+    
+    
+    nav a:hover{
+        transform: scale(1.2);
+    }
+      
+    .titulo{
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: "Formula-w";
+        font-size: 18px;
+    }
+
+    .escuderias{
+        width: 100%;
+    }
+
+    .escuderias-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .escuderia{
+        width: 18%;
+        margin: 2%;
+        padding-bottom: 2%;
+    }
+
+    .escuderia img{
+        width: 100%;
+    }
+
+    h4{
+        text-align: center;
+        font-family: "Formula-b";
+        height: 10%;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .info-1{
+        margin-left: 4%;
+        margin-right: 4%;
+        text-align: center;
+    }
+
+    #red{
+        border-radius: 20px;
+        border-top: 4px solid #3874c4;
+        border-left: 4px solid #3874c4;
+    }
+
+
+    #mer{
+
+        border-radius: 20px;
+        border-top: 4px solid #6cd4bc;
+        border-left: 4px solid #6cd4bc;
+    }
+
+
+    #fer{
+        border-radius: 20px;
+        border-top: 4px solid #ff1434;
+        border-left: 4px solid #ff1434;
+    }
+
+    #ast{
+        border-radius: 20px;
+        border-top: 4px solid #388c74;
+        border-left: 4px solid #388c74;
+    }
+
+    #mcl{
+        border-radius: 20px;
+        border-left: 4px solid #f88424;
+        border-top: 4px solid #f88424;
+    }
+
+    #alp{
+        border-radius: 20px;
+        border-left: 4px solid #2894d4;
+        border-top: 4px solid #2894d4;
+    }
+
+    #rb{
+        border-radius: 20px;
+        border-left: 4px solid #608cac;
+        border-top: 4px solid #608cac;
+    }
+
+    #sau{
+        border-radius: 20px;
+        border-left: 4px solid #08e404;
+        border-top: 4px solid #08e404;
+    }
+
+    #has{
+        border-radius: 20px;
+        border-left: 4px solid #b8bcbc;
+        border-top: 4px solid #b8bcbc;
+    }
+
+    #wil{
+        border-radius: 20px;
+        border-left: 4px solid #38bcdc;
+        border-top: 4px solid #38bcdc;
+    }
+
+    .escuderia img{
+        border-radius: 18px;
+    }
+
+    p{
+        margin-top: 1%;
+    }
+
+    footer {
+        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+        bottom: 0; /* Lo coloca al final de la ventana */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50px;
+        background-color: #000000; /* Cambia el color de fondo a tu preferencia */
+        color: white; /* Cambia el color del texto a tu preferencia */
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+        text-align: center; /* Centra el contenido */
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+
+    body{
+        font-family: "Formula";
+        font-size: 1.2  vh;
+        margin: 0%;
+    }
+
+
+    header{
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header img{
+        height: 80%;
+    }
+
+    header a{
+        position: absolute;
+        right: 10px;
+        height: 4%;
+        margin-top: 0.5%;
+    }
+    
+    nav{
+        position: sticky;
+        top: 0; 
+        height: 8vh;
+        width: 100%;
+        background-color: red;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: red;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        font-family: "Formula-b";
+        text-shadow: 2px 2px black;        
+        padding: 10px;
+    }
+
+    nav a:hover{
+        transform: scale(1.2);
+    }
+    
+    .titulo{
+        height: 30px;
+        width: 100%;
+        text-align: center;
+        font-family: "Formula-w";
+        font-size: 1.5vh;
+    }
+
+    .escuderias{
+        width: 100%;
+
+    }
+
+    .escuderias-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .escuderia{
+        width: 95%;
+        margin: 2.5%;
+
+    }
+
+    .escuderia img{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    h4{
+        text-align: center;
+        font-family: "Formula-b";
+        font-size: 1.8vh;
+        margin: 0;
+        margin-bottom: 2%;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .info-1{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+
+    #red{
+        border-radius: 20px;
+        border-top: 4px solid #3874c4;
+        border-left: 4px solid #3874c4;
+    }
+
+
+    #mer{
+
+        border-radius: 20px;
+        border-top: 4px solid #6cd4bc;
+        border-left: 4px solid #6cd4bc;
+    }
+
+
+    #fer{
+        border-radius: 20px;
+        border-top: 4px solid #ff1434;
+        border-left: 4px solid #ff1434;
+    }
+
+    #ast{
+        border-radius: 20px;
+        border-top: 4px solid #388c74;
+        border-left: 4px solid #388c74;
+    }
+
+    #mcl{
+        border-radius: 20px;
+        border-left: 4px solid #f88424;
+        border-top: 4px solid #f88424;
+    }
+
+    #alp{
+        border-radius: 20px;
+        border-left: 4px solid #2894d4;
+        border-top: 4px solid #2894d4;
+    }
+
+    #rb{
+        border-radius: 20px;
+        border-left: 4px solid #608cac;
+        border-top: 4px solid #608cac;
+    }
+
+    #sau{
+        border-radius: 20px;
+        border-left: 4px solid #08e404;
+        border-top: 4px solid #08e404;
+    }
+
+    #has{
+        border-radius: 20px;
+        border-left: 4px solid #b8bcbc;
+        border-top: 4px solid #b8bcbc;
+    }
+
+    #wil{
+        border-radius: 20px;
+        border-left: 4px solid #38bcdc;
+        border-top: 4px solid #38bcdc;
+    }
+
+
+    footer {
+        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
+        bottom: 0; /* Lo coloca al final de la ventana */
+        width: 100%; /* Ocupa todo el ancho */
+        height: 50px;
+        background-color: #000000; /* Cambia el color de fondo a tu preferencia */
+        color: white; /* Cambia el color del texto a tu preferencia */
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+        text-align: center; /* Centra el contenido */
+
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+}
