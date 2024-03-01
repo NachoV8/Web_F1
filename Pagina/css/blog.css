@@ -290,7 +290,8 @@
     }
 
     h5{
-        width: 90%;
+        width: 80%;
+        margin-left: 5%;
         font-family: "Formula-b";
         font-size: 12px;
     }
