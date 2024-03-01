@@ -144,12 +144,13 @@
     
     nav{
         position: sticky;
-        top: 0; 
+        top: 0;
+        z-index: 80; 
         height: 8vh;
         width: 100%;
         background-color: red;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: red;
     }
@@ -157,7 +158,7 @@
     nav a {
         text-decoration: none;
         color: white;
-        font-size: 2vh;
+        font-size: 1.2vh;
         font-family: "Formula-b";
         text-shadow: 2px 2px black;        
         padding: 10px;
@@ -176,15 +177,15 @@
     }
 
     .informacion p{
-        width: 60%;
-        margin-left: 20%;
+        width: 90%;
+        margin-left: 5%;
         text-align: justify;
         margin-top: 2%;
     }
 
     footer {
-        position: fixed; /* Fija el footer en la parte inferior de la ventana del navegador */
-        bottom: 0; /* Lo coloca al final de la ventana */
+        position: absolute;
+        bottom: 0%;  /* Lo coloca al final de la ventana */
         width: 100%; /* Ocupa todo el ancho */
         height: 50px;
         background-color: #000000; /* Cambia el color de fondo a tu preferencia */
@@ -193,11 +194,11 @@
         align-items: center;
         display: flex;
         flex-direction: row;
-        font-size: 1.5vh;
     }
 
     footer p{
-        text-align: center; /* Centra el contenido */
+        text-align: center;
+        font-size: 1.2vh; /* Centra el contenido */
 
     }
 

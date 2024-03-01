@@ -205,14 +205,22 @@
     .info{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin-top: 1vh;
     }
 
-    .info-1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+    table{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 
+    tr{
+        text-align: center;
+    }
+
+    td{
+        height: 100%;
+    }
 
 
     footer {
@@ -270,12 +278,13 @@
     
     nav{
         position: sticky;
-        top: 0; 
+        top: 0;
+        z-index: 80; 
         height: 8vh;
         width: 100%;
         background-color: red;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: red;
     }
@@ -283,12 +292,12 @@
     nav a {
         text-decoration: none;
         color: white;
-        font-size: 2vh;
+        font-size: 1.2vh;
         font-family: "Formula-b";
         text-shadow: 2px 2px black;        
         padding: 10px;
     }
-    
+
     nav a:hover{
         transform: scale(1.2);
     }
@@ -319,8 +328,8 @@
     }
 
     .p-red{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #3874c4;
         border-left: 4px solid #3874c4;
@@ -329,8 +338,8 @@
     }
 
     .p-mer{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #6cd4bc;
         border-left: 4px solid #6cd4bc;
@@ -338,8 +347,8 @@
     }
 
     .p-fer{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #ff1434;
         border-left: 4px solid #ff1434;
@@ -347,8 +356,8 @@
     }
 
     .p-ast{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #388c74;
         border-left: 4px solid #388c74;
@@ -356,8 +365,8 @@
     }
 
     .p-mcl{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;;
         border-radius: 20px;
         border-top: 4px solid #f88424;
         border-left: 4px solid #f88424;
@@ -365,8 +374,8 @@
     }
 
     .p-alp{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #2894d4;
         border-left: 4px solid #2894d4;
@@ -374,8 +383,8 @@
     }
 
     .p-rb{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #608cac;
         border-left: 4px solid #608cac;
@@ -383,8 +392,8 @@
     }
 
     .p-sau{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #08e404;
         border-left: 4px solid #08e404;
@@ -392,8 +401,8 @@
     }
 
     .p-has{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #b8bcbc;
         border-left: 4px solid #b8bcbc;
@@ -401,8 +410,8 @@
     }
 
     .p-wil{
-        width: 95%;
-        margin: 2.5%;
+        width: 90%;
+        margin: 4%;
         border-radius: 20px;
         border-top: 4px solid #38bcdc;
         border-left: 4px solid #38bcdc;
@@ -426,17 +435,24 @@
         flex-direction: column;
     }
 
-    .info-1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+    table{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    tr{
+        text-align: center;
+    }
+
+    td{
+        height: 100%;
     }
 
 
 
     footer {
-        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
-        bottom: 0; /* Lo coloca al final de la ventana */
+        position: relative;
+        bottom: 0%;  /* Lo coloca al final de la ventana */
         width: 100%; /* Ocupa todo el ancho */
         height: 50px;
         background-color: #000000; /* Cambia el color de fondo a tu preferencia */
@@ -448,7 +464,8 @@
     }
 
     footer p{
-        text-align: center; /* Centra el contenido */
+        text-align: center;
+        font-size: 1.2vh; /* Centra el contenido */
 
     }
 

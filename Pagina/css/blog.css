@@ -165,7 +165,8 @@
 
 
     iframe{
-        width: 100%;
+        width: 34.9vw;
+        height: 40vh;
         border-radius: 12px;
         margin-top: 2vh;
     }
@@ -244,12 +245,13 @@
     
     nav{
         position: sticky;
-        top: 0; 
+        top: 0;
+        z-index: 80; 
         height: 8vh;
         width: 100%;
         background-color: red;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: red;
     }
@@ -257,7 +259,7 @@
     nav a {
         text-decoration: none;
         color: white;
-        font-size: 2vh;
+        font-size: 1.2vh;
         font-family: "Formula-b";
         text-shadow: 2px 2px black;        
         padding: 10px;
@@ -278,11 +280,11 @@
     .informacion{
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .info-1{
-        width: 60%;
+        width: 90%;
         margin-left: 5%;
         margin-bottom: 2%;
     }
@@ -302,11 +304,12 @@
     }
 
     p{
-        width: 98%;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .autor{
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: row;
     }
@@ -323,13 +326,19 @@
         width: 3vh;
         height: 3vh;
     }
+
+    h6{
+        width: 80%;
+        margin-left: 10%;
+        font-family: "Formula-b";
+        font-size: 12px;
+    }
     
     .resto{
-        width: 35%;
+        width: 90%;
         height: 100%;
         margin-top: 10%;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 5%;
         position: sticky;
         top: 15%;
     }
@@ -364,6 +373,7 @@
     .redes{
         width: 100%;
         margin-top: 5%;
+        margin-bottom: 5%;
         display: flex;
         justify-content: space-around;
     }
@@ -377,8 +387,8 @@
     }
 
     footer {
-        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
-        bottom: 0; /* Lo coloca al final de la ventana */
+        position: relative;
+        bottom: 0%;  /* Lo coloca al final de la ventana */
         width: 100%; /* Ocupa todo el ancho */
         height: 50px;
         background-color: #000000; /* Cambia el color de fondo a tu preferencia */
@@ -390,7 +400,8 @@
     }
 
     footer p{
-        text-align: center; /* Centra el contenido */
+        text-align: center;
+        font-size: 1.2vh; /* Centra el contenido */
 
     }
 

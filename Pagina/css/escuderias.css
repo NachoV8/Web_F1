@@ -212,7 +212,7 @@
 
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 800px) {
 
     body{
         font-family: "Formula";
@@ -243,12 +243,13 @@
     
     nav{
         position: sticky;
-        top: 0; 
+        top: 0;
+        z-index: 80; 
         height: 8vh;
         width: 100%;
         background-color: red;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         background-color: red;
     }
@@ -256,7 +257,7 @@
     nav a {
         text-decoration: none;
         color: white;
-        font-size: 2vh;
+        font-size: 1.2vh;
         font-family: "Formula-b";
         text-shadow: 2px 2px black;        
         padding: 10px;
@@ -380,10 +381,9 @@
         border-top: 4px solid #38bcdc;
     }
 
-
     footer {
-        position: relative; /* Fija el footer en la parte inferior de la ventana del navegador */
-        bottom: 0; /* Lo coloca al final de la ventana */
+        position: relative;
+        bottom: 0%;  /* Lo coloca al final de la ventana */
         width: 100%; /* Ocupa todo el ancho */
         height: 50px;
         background-color: #000000; /* Cambia el color de fondo a tu preferencia */
@@ -395,7 +395,8 @@
     }
 
     footer p{
-        text-align: center; /* Centra el contenido */
+        text-align: center;
+        font-size: 1.2vh; /* Centra el contenido */
 
     }
 
