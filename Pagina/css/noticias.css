@@ -288,6 +288,10 @@
         display: none;
     }
 
+    details p{
+        font-size: 13px;
+    }
+
     p{
         width: 90%;
         margin: 5%;

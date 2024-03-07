@@ -13,7 +13,7 @@
     src:url('../fuentes/Formula1-Wide.otf');
 }
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 800px) {
     body{
         font-family: "Formula";
         font-size: 1.5vh;
@@ -91,13 +91,14 @@
     h5{
         font-family: "Formula-b";
         font-size: 14px;
+        margin-top: 1%;
     }
 
 
     .info-1 h5{
         width: 90%;
         font-family: "Formula-b";
-        font-size: 14px;
+        font-size: 18px;
     }
    
     .post{
@@ -106,6 +107,13 @@
         border-radius: 12px;
         border-right: 2px solid red;
         border-bottom: 2px solid red;
+        margin-top: 4%;
+    }
+
+    .post img{
+        border-radius: 12px;
+        width: 100%;
+        height: 50%;
     }
 
     p{
@@ -128,7 +136,9 @@
     .comentarios img{
         width: 3vh;
         height: 3vh;
+        border-radius: 0px;
     }
+
 
     .resto{
         width: 35%;
@@ -139,7 +149,6 @@
         position: sticky;
         top: 15%;
     }
-
 
     .enlaces{
         width: 100%;
@@ -156,6 +165,10 @@
         margin-bottom: 4%;
         text-decoration: none;
         color: #000000;
+    }
+
+    h6{
+        font-size: 16px;
     }
 
     .enlaces a:hover{
@@ -302,6 +315,16 @@
         border-radius: 12px;
         border-right: 2px solid red;
         border-bottom: 2px solid red;
+        margin-top: 4%;
+    }
+
+    .post h5{
+        font-size: 14px;
+    }
+
+    .post img{
+        width: 100%;
+        border-radius: 12px;
     }
 
     p{
@@ -326,6 +349,7 @@
     .comentarios img{
         width: 3vh;
         height: 3vh;
+        border-radius: 0px;
     }
 
     h6{
